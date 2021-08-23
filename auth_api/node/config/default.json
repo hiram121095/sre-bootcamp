@@ -1,4 +1,12 @@
 {
   "port" : 8000,
-  "environment": "development"
+  "environment": "development",
+  "mysqlCredentials": {
+    "host": "bootcamp-tht.sre.wize.mx",
+    "user": "secret",
+    "password": "noPow3r",
+    "database": "bootcamp_tht",
+    "connectionLimit" : 10
+  },
+  "secret": "my2w7wjd7yXF64FIADfJxNs1oupTGAuW"
 }
